@@ -630,4 +630,4 @@ UIView成为CALayer的代理后，对于`-actionForLayer:forKey`方法返回了n
 
 ### 8. 自定义动画
 
-对于动画的时间，做了几个demo。(点击进入)[https://github.com/Be-doing/AnimationDemo/]
+对于动画的时间，做了几个demo。[点击进入](https://github.com/Be-doing/AnimationDemo/)
