@@ -7,28 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2D0179DC321B9BCC111B0D2 /* libPods-RYAnimationDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E86315EEA00B01B47479D50 /* libPods-RYAnimationDemo.a */; };
 		D7931549256E5EAA009CAC7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7931548256E5EAA009CAC7D /* AppDelegate.m */; };
 		D793154C256E5EAA009CAC7D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D793154B256E5EAA009CAC7D /* SceneDelegate.m */; };
-		D793154F256E5EAA009CAC7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D793154E256E5EAA009CAC7D /* ViewController.m */; };
-		D7931552256E5EAA009CAC7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7931550256E5EAA009CAC7D /* Main.storyboard */; };
+		D793154F256E5EAA009CAC7D /* RYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D793154E256E5EAA009CAC7D /* RYHomeViewController.m */; };
 		D7931554256E5EAE009CAC7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7931553256E5EAE009CAC7D /* Assets.xcassets */; };
-		D7931557256E5EAE009CAC7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7931555256E5EAE009CAC7D /* LaunchScreen.storyboard */; };
 		D793155A256E5EAE009CAC7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7931559256E5EAE009CAC7D /* main.m */; };
+		D7931566256E6EE2009CAC7D /* RYAnimationDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D7931565256E6EE2009CAC7D /* RYAnimationDataModel.m */; };
+		D793156A256E70D9009CAC7D /* RYAnimationDataHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = D7931569256E70D9009CAC7D /* RYAnimationDataHolder.m */; };
+		D7931570256E8589009CAC7D /* RYAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D793156F256E8589009CAC7D /* RYAnimationViewController.m */; };
+		D7931577256E89D6009CAC7D /* NavigationAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7931576256E89D6009CAC7D /* NavigationAnimationView.m */; };
+		D79315812570E138009CAC7D /* TrashAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D79315802570E137009CAC7D /* TrashAnimationView.m */; };
+		D793190A2575100F009CAC7D /* RYSectorAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D79319092575100F009CAC7D /* RYSectorAnimationView.m */; };
+		D7931C9A257A2E2B009CAC7D /* MapLoctionAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7931C99257A2E2B009CAC7D /* MapLoctionAnimationView.m */; };
+		D7A2DF3E257A8FAC00038699 /* TransitionAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A2DF3D257A8FAC00038699 /* TransitionAnimationView.m */; };
+		D7A2DF47257B918D00038699 /* LoadingAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A2DF46257B918D00038699 /* LoadingAnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29B07226584F4F1784424660 /* Pods-RYAnimationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYAnimationDemo.debug.xcconfig"; path = "Target Support Files/Pods-RYAnimationDemo/Pods-RYAnimationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9E86315EEA00B01B47479D50 /* libPods-RYAnimationDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RYAnimationDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77BA9B7CCB1B9BF57B5D219 /* Pods-RYAnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYAnimationDemo.release.xcconfig"; path = "Target Support Files/Pods-RYAnimationDemo/Pods-RYAnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D7931544256E5EAA009CAC7D /* RYAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7931547256E5EAA009CAC7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7931548256E5EAA009CAC7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D793154A256E5EAA009CAC7D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		D793154B256E5EAA009CAC7D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		D793154D256E5EAA009CAC7D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D793154E256E5EAA009CAC7D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D7931551256E5EAA009CAC7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D793154D256E5EAA009CAC7D /* RYHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYHomeViewController.h; sourceTree = "<group>"; };
+		D793154E256E5EAA009CAC7D /* RYHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYHomeViewController.m; sourceTree = "<group>"; };
 		D7931553256E5EAE009CAC7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D7931556256E5EAE009CAC7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7931558256E5EAE009CAC7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7931559256E5EAE009CAC7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7931564256E6EE2009CAC7D /* RYAnimationDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYAnimationDataModel.h; sourceTree = "<group>"; };
+		D7931565256E6EE2009CAC7D /* RYAnimationDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYAnimationDataModel.m; sourceTree = "<group>"; };
+		D7931568256E70D9009CAC7D /* RYAnimationDataHolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYAnimationDataHolder.h; sourceTree = "<group>"; };
+		D7931569256E70D9009CAC7D /* RYAnimationDataHolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYAnimationDataHolder.m; sourceTree = "<group>"; };
+		D793156E256E8589009CAC7D /* RYAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYAnimationViewController.h; sourceTree = "<group>"; };
+		D793156F256E8589009CAC7D /* RYAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYAnimationViewController.m; sourceTree = "<group>"; };
+		D7931575256E89D6009CAC7D /* NavigationAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationAnimationView.h; sourceTree = "<group>"; };
+		D7931576256E89D6009CAC7D /* NavigationAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationAnimationView.m; sourceTree = "<group>"; };
+		D793157F2570E137009CAC7D /* TrashAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrashAnimationView.h; sourceTree = "<group>"; };
+		D79315802570E137009CAC7D /* TrashAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrashAnimationView.m; sourceTree = "<group>"; };
+		D79319082575100F009CAC7D /* RYSectorAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYSectorAnimationView.h; sourceTree = "<group>"; };
+		D79319092575100F009CAC7D /* RYSectorAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYSectorAnimationView.m; sourceTree = "<group>"; };
+		D7931C98257A2E2A009CAC7D /* MapLoctionAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapLoctionAnimationView.h; sourceTree = "<group>"; };
+		D7931C99257A2E2B009CAC7D /* MapLoctionAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapLoctionAnimationView.m; sourceTree = "<group>"; };
+		D7A2DF3C257A8FAC00038699 /* TransitionAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionAnimationView.h; sourceTree = "<group>"; };
+		D7A2DF3D257A8FAC00038699 /* TransitionAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimationView.m; sourceTree = "<group>"; };
+		D7A2DF45257B918D00038699 /* LoadingAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingAnimationView.h; sourceTree = "<group>"; };
+		D7A2DF46257B918D00038699 /* LoadingAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingAnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +63,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D0179DC321B9BCC111B0D2 /* libPods-RYAnimationDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8914EF7427ED283D6D214861 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29B07226584F4F1784424660 /* Pods-RYAnimationDemo.debug.xcconfig */,
+				C77BA9B7CCB1B9BF57B5D219 /* Pods-RYAnimationDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8E8FB8C80CD1E51F472F80A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E86315EEA00B01B47479D50 /* libPods-RYAnimationDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D793153B256E5EAA009CAC7D = {
 			isa = PBXGroup;
 			children = (
 				D7931546256E5EAA009CAC7D /* RYAnimationDemo */,
 				D7931545256E5EAA009CAC7D /* Products */,
+				8914EF7427ED283D6D214861 /* Pods */,
+				8E8FB8C80CD1E51F472F80A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +108,67 @@
 		D7931546256E5EAA009CAC7D /* RYAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D793190725750F6E009CAC7D /* UtilityViews */,
+				D7931574256E883F009CAC7D /* aboutAnimationView */,
+				D793156D256E854F009CAC7D /* appDelegate */,
+				D793156C256E8518009CAC7D /* aboutAnimationData */,
+				D793154D256E5EAA009CAC7D /* RYHomeViewController.h */,
+				D793154E256E5EAA009CAC7D /* RYHomeViewController.m */,
+				D7931553256E5EAE009CAC7D /* Assets.xcassets */,
+				D7931558256E5EAE009CAC7D /* Info.plist */,
+				D7931559256E5EAE009CAC7D /* main.m */,
+				D793156E256E8589009CAC7D /* RYAnimationViewController.h */,
+				D793156F256E8589009CAC7D /* RYAnimationViewController.m */,
+			);
+			path = RYAnimationDemo;
+			sourceTree = "<group>";
+		};
+		D793156C256E8518009CAC7D /* aboutAnimationData */ = {
+			isa = PBXGroup;
+			children = (
+				D7931564256E6EE2009CAC7D /* RYAnimationDataModel.h */,
+				D7931565256E6EE2009CAC7D /* RYAnimationDataModel.m */,
+				D7931568256E70D9009CAC7D /* RYAnimationDataHolder.h */,
+				D7931569256E70D9009CAC7D /* RYAnimationDataHolder.m */,
+			);
+			path = aboutAnimationData;
+			sourceTree = "<group>";
+		};
+		D793156D256E854F009CAC7D /* appDelegate */ = {
+			isa = PBXGroup;
+			children = (
 				D7931547256E5EAA009CAC7D /* AppDelegate.h */,
 				D7931548256E5EAA009CAC7D /* AppDelegate.m */,
 				D793154A256E5EAA009CAC7D /* SceneDelegate.h */,
 				D793154B256E5EAA009CAC7D /* SceneDelegate.m */,
-				D793154D256E5EAA009CAC7D /* ViewController.h */,
-				D793154E256E5EAA009CAC7D /* ViewController.m */,
-				D7931550256E5EAA009CAC7D /* Main.storyboard */,
-				D7931553256E5EAE009CAC7D /* Assets.xcassets */,
-				D7931555256E5EAE009CAC7D /* LaunchScreen.storyboard */,
-				D7931558256E5EAE009CAC7D /* Info.plist */,
-				D7931559256E5EAE009CAC7D /* main.m */,
 			);
-			path = RYAnimationDemo;
+			path = appDelegate;
+			sourceTree = "<group>";
+		};
+		D7931574256E883F009CAC7D /* aboutAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				D7931575256E89D6009CAC7D /* NavigationAnimationView.h */,
+				D7931576256E89D6009CAC7D /* NavigationAnimationView.m */,
+				D793157F2570E137009CAC7D /* TrashAnimationView.h */,
+				D79315802570E137009CAC7D /* TrashAnimationView.m */,
+				D7931C98257A2E2A009CAC7D /* MapLoctionAnimationView.h */,
+				D7931C99257A2E2B009CAC7D /* MapLoctionAnimationView.m */,
+				D7A2DF3C257A8FAC00038699 /* TransitionAnimationView.h */,
+				D7A2DF3D257A8FAC00038699 /* TransitionAnimationView.m */,
+				D7A2DF45257B918D00038699 /* LoadingAnimationView.h */,
+				D7A2DF46257B918D00038699 /* LoadingAnimationView.m */,
+			);
+			path = aboutAnimationView;
+			sourceTree = "<group>";
+		};
+		D793190725750F6E009CAC7D /* UtilityViews */ = {
+			isa = PBXGroup;
+			children = (
+				D79319082575100F009CAC7D /* RYSectorAnimationView.h */,
+				D79319092575100F009CAC7D /* RYSectorAnimationView.m */,
+			);
+			path = UtilityViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D793155D256E5EAE009CAC7D /* Build configuration list for PBXNativeTarget "RYAnimationDemo" */;
 			buildPhases = (
+				FAA6A73D22C90ED922896072 /* [CP] Check Pods Manifest.lock */,
 				D7931540256E5EAA009CAC7D /* Sources */,
 				D7931541256E5EAA009CAC7D /* Frameworks */,
 				D7931542256E5EAA009CAC7D /* Resources */,
@@ -132,46 +228,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7931557256E5EAE009CAC7D /* LaunchScreen.storyboard in Resources */,
 				D7931554256E5EAE009CAC7D /* Assets.xcassets in Resources */,
-				D7931552256E5EAA009CAC7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FAA6A73D22C90ED922896072 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RYAnimationDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D7931540256E5EAA009CAC7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D793154F256E5EAA009CAC7D /* ViewController.m in Sources */,
+				D7931C9A257A2E2B009CAC7D /* MapLoctionAnimationView.m in Sources */,
+				D793154F256E5EAA009CAC7D /* RYHomeViewController.m in Sources */,
 				D7931549256E5EAA009CAC7D /* AppDelegate.m in Sources */,
+				D793190A2575100F009CAC7D /* RYSectorAnimationView.m in Sources */,
 				D793155A256E5EAE009CAC7D /* main.m in Sources */,
+				D7A2DF47257B918D00038699 /* LoadingAnimationView.m in Sources */,
+				D7931570256E8589009CAC7D /* RYAnimationViewController.m in Sources */,
+				D793156A256E70D9009CAC7D /* RYAnimationDataHolder.m in Sources */,
+				D7931577256E89D6009CAC7D /* NavigationAnimationView.m in Sources */,
+				D7931566256E6EE2009CAC7D /* RYAnimationDataModel.m in Sources */,
+				D79315812570E138009CAC7D /* TrashAnimationView.m in Sources */,
+				D7A2DF3E257A8FAC00038699 /* TransitionAnimationView.m in Sources */,
 				D793154C256E5EAA009CAC7D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D7931550256E5EAA009CAC7D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7931551256E5EAA009CAC7D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D7931555256E5EAE009CAC7D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7931556256E5EAE009CAC7D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D793155B256E5EAE009CAC7D /* Debug */ = {
@@ -288,6 +397,7 @@
 		};
 		D793155E256E5EAE009CAC7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29B07226584F4F1784424660 /* Pods-RYAnimationDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,6 +415,7 @@
 		};
 		D793155F256E5EAE009CAC7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C77BA9B7CCB1B9BF57B5D219 /* Pods-RYAnimationDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
