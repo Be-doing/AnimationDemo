@@ -1,5 +1,5 @@
 //
-//  UnlockAnimationView.m
+//  TrashAnimationView.m
 //  RYAnimationDemo
 //
 //  Created by Leng,Guocheng on 2020/11/27.
@@ -15,6 +15,7 @@
 @property (nonatomic, strong) UIImageView *planeView;
 @property (nonatomic, strong) RYSectorAnimationView *sectorView;
 @property (nonatomic, assign) CGFloat radius;
+@property (nonatomic, assign) CGRect planeFrame;
 @end
 
 @implementation TrashAnimationView
@@ -30,7 +31,6 @@
             make.bottom.mas_equalTo(0);
             make.size.mas_equalTo(CGSizeMake(100, 100));
         }];
-        
     }
     return self;
 }
@@ -54,6 +54,12 @@
     return _sectorView;
 }
 
+- (CGRect)planeFrame {
+    CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
+    CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;
+    _planeFrame = CGRectMake(screenWidth/2 - 50, screenHeight - 100, 100, 100);
+    return _planeFrame;
+}
 
 - (void)handlePan:(UIPanGestureRecognizer *) pan {
     UIView *view = pan.view;
@@ -78,6 +84,11 @@
     } else if (pan.state == UIGestureRecognizerStateEnded ||
                pan.state == UIGestureRecognizerStateCancelled) {
         _radius = 100;
+        if (view.center.x < 150 && view.center.y < 150) {
+            [UIView animateWithDuration:0.54 animations:^{
+                self.planeView.frame = self.planeFrame;
+            }];
+        }
         [UIView animateWithDuration:0.24 animations:^{
             self.sectorView.alpha = 0.0;
         }];
