@@ -36,16 +36,22 @@
     NSArray *dic = @[
         @{
             @"type":@1,
-            @"name":@"UIView视图动画"
+            @"name":@"导航栏动画"
         },@{
             @"type":@2,
-            @"name":@"CA基础动画"
+            @"name":@"垃圾桶动画"
         },@{
             @"type":@3,
-            @"name":@"CA帧动画"
+            @"name":@"地图定位波动动画"
         },@{
             @"type":@4,
-            @"name":@"CA转场动画"
+            @"name":@"过渡动画"
+        },@{
+            @"type":@5,
+            @"name":@"加载动画"
+        },@{
+            @"type":@6,
+            @"name":@"进度条动画"
         }];
     return [[self class] paese:dic];
 }

@@ -10,10 +10,15 @@
 NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSUInteger, RYAnimationType) {
-    RYAnimationTypeUIView = 1,  // UIView封装的动画
-    RYAnimationTypeBasic,       // CA基础动画
-    RYAnimationTypeKeyframe,    // CA帧动画
-    RYAnimationTypeTransition   // 专场动画
+    RYAnimationTypeNavigation = 1,  // 导航栏动画
+    RYAnimationTypeTrash,           // 垃圾桶动画
+    RYAnimationTypeMapPoint,        // 定位波动动画
+    RYAnimationTypeTransition,      // 过渡动画
+    RYAnimationTypeLoading,         // 加载动画
+    RYAnimationTypeProcessing,      // 进度条动画
+    RYAnimationTypeGradients,       // 渐变动画
+    RYAnimationTypeOther            // 占位
+    
 };
 
 @interface RYAnimationModel : NSObject
